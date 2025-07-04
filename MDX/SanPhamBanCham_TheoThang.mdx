@@ -1,0 +1,36 @@
+﻿WITH
+-- Trung bình số lượng bán ra của từng sản phẩm trên toàn thời gian
+MEMBER [Measures].[ProductAvgQty] AS
+  Avg(
+    {[Order Date].[Calendar Year].[Calendar Year].Members *
+      [Order Date].[English Month Name].[English Month Name].Members},
+    ([Measures].[Order Quantity])
+  )
+
+-- Đánh dấu sản phẩm bán chậm nếu số lượng < trung bình của chính nó
+MEMBER [Measures].[IsSlowProduct] AS
+  IIF(
+    [Measures].[Order Quantity] < [Measures].[ProductAvgQty],
+    1, NULL
+  )
+
+SELECT
+{
+  [Measures].[Order Quantity],
+  [Measures].[ProductAvgQty]
+} ON COLUMNS,
+
+NON EMPTY
+FILTER(
+  NONEMPTY(
+    CROSSJOIN(
+	  [Order Date].[English Month Name].[English Month Name].Members,
+	  [Order Date].[Calendar Year].[Calendar Year].Members,
+      [Dim Product].[English Product Name].[English Product Name].Members
+    ),
+    [Measures].[Order Quantity]
+  ),
+  [Measures].[IsSlowProduct] = 1
+) ON ROWS
+
+FROM [FactInternetSalesCube]

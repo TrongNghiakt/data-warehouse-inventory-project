@@ -1,0 +1,36 @@
+WITH
+-- Trung bình s? l??ng bán ra c?a t?ng s?n ph?m trên toàn th?i gian
+MEMBER [Measures].[ProductAvgQty] AS
+  Avg(
+    {[Order Date].[Calendar Year].[Calendar Year].Members *
+      [Order Date].[English Month Name].[English Month Name].Members},
+    ([Measures].[Order Quantity])
+  )
+
+-- ?ánh d?u s?n ph?m bán ch?m n?u s? l??ng < trung bình c?a chính nó
+MEMBER [Measures].[IsSlowProduct] AS
+  IIF(
+    [Measures].[Order Quantity] < [Measures].[ProductAvgQty],
+    1, NULL
+  )
+
+SELECT
+{
+  [Measures].[Order Quantity],
+  [Measures].[ProductAvgQty]
+} ON COLUMNS,
+
+NON EMPTY
+FILTER(
+  NONEMPTY(
+    CROSSJOIN(
+	  [Order Date].[English Month Name].[English Month Name].Members,
+	  [Order Date].[Calendar Year].[Calendar Year].Members,
+      [Dim Product].[English Product Name].[English Product Name].Members
+    ),
+    [Measures].[Order Quantity]
+  ),
+  [Measures].[IsSlowProduct] = 1
+) ON ROWS
+
+FROM [FactInternetSalesCube]

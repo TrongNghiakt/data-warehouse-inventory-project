@@ -1,0 +1,32 @@
+﻿//Tổng chiết khấu theo chương trình khuyến mãi:
+SELECT 
+    [Measures].[Discount Amount] ON COLUMNS,
+    [Dim Promotion].[English Promotion Name].[English Promotion Name].MEMBERS ON ROWS
+FROM [Reseller Sales]
+
+// Đánh giá hiệu suất nhân viên theo thời gian
+SELECT
+  {[Measures].[Sales Amount]} ON COLUMNS,
+  NON EMPTY
+    CROSSJOIN(
+      [Dim Employee].[Last Name].[Last Name].Members,
+      [Order Date].[Full Date Alternate Key].Members
+    ) ON ROWS
+FROM [Reseller Sales]
+
+// Doanh so ban hang theo tung tai ly tai tung chuong trinh khuyen mai 
+SELECT
+  {[Measures].[Sales Amount]} ON COLUMNS,
+  NON EMPTY
+    CROSSJOIN(
+      FILTER(
+        [Dim Reseller].[Reseller Name].Members,
+        NOT [Dim Reseller].[Reseller Name].CurrentMember IS [Dim Reseller].[Reseller Name].[All]
+      ),
+      FILTER(
+        [Dim Promotion].[English Promotion Name].Members,
+        NOT [Dim Promotion].[English Promotion Name].CurrentMember IS [Dim Promotion].[English Promotion Name].[All]
+      )
+    ) ON ROWS
+FROM [Reseller Sales]
+

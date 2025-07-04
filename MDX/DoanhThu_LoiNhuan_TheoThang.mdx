@@ -1,0 +1,21 @@
+WITH
+  MEMBER [Measures].[Profit] AS 
+    ([Measures].[Sales Amount] - [Measures].[Total Product Cost])
+
+SELECT 
+  {
+    [Measures].[Sales Amount],
+    [Measures].[Profit]
+  } ON COLUMNS,
+
+  NON EMPTY
+  CrossJoin(
+    [Order Date].[Calendar Year].[Calendar Year].MEMBERS,
+    CrossJoin(
+      [Order Date].[Calendar Quarter].[Calendar Quarter].MEMBERS,
+      [Order Date].[English Month Name].[English Month Name].MEMBERS
+    )
+  ) ON ROWS
+
+FROM [FactInternetSalesCube]
+

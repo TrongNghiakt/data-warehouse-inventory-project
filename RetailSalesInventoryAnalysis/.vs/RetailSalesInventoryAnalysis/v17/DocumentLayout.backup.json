@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Organization.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Organization.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Reseller.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Reseller.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Employee.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Product.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Product.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Promotion.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Promotion.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Sales Territory.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Sales Territory.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Currency.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\Dim Currency.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactProductInventoryCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\FactProductInventoryCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactResellerSalesCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\FactResellerSalesCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactInternetSalesCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\FactInternetSalesCube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\RetailSalesInventoryDSV.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{28DEF6A4-A49E-1E82-2138-0A6626AF820B}|RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis.dwproj|solutionrelative:RetailSalesInventoryAnalysis\\RetailSalesInventoryDSV.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dim Organization.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Organization.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Organization.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Organization.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Organization.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:31:40.026Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Reseller.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Reseller.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Reseller.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Reseller.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Reseller.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:31:30.24Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Employee.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Employee.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Employee.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Employee.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Employee.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:31:07.369Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Customer.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Customer.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Customer.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Customer.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Customer.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:30:50.191Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Date.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Date.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Date.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:29:53.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Product.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Product.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Product.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Product.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Product.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:29:23.802Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Promotion.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Promotion.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Promotion.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Promotion.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Promotion.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:29:12.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Sales Territory.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Sales Territory.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Sales Territory.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Sales Territory.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Sales Territory.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:28:49.104Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dim Currency.dim [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Currency.dim",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\Dim Currency.dim",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\Dim Currency.dim [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\Dim Currency.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:28:31.236Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FactProductInventoryCube.cube [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactProductInventoryCube.cube",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\FactProductInventoryCube.cube",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactProductInventoryCube.cube [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\FactProductInventoryCube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:28:09.004Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FactResellerSalesCube.cube [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactResellerSalesCube.cube",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\FactResellerSalesCube.cube",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactResellerSalesCube.cube [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\FactResellerSalesCube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:27:48.116Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FactInternetSalesCube.cube [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactInternetSalesCube.cube",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\FactInternetSalesCube.cube",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\FactInternetSalesCube.cube [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\FactInternetSalesCube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:27:10.586Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RetailSalesInventoryDSV.dsv [Design]",
+              "DocumentMoniker": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\RetailSalesInventoryDSV.dsv",
+              "RelativeDocumentMoniker": "RetailSalesInventoryAnalysis\\RetailSalesInventoryDSV.dsv",
+              "ToolTip": "D:\\DAWH\\BaoCaoCuoiKy_DataWarehouse_Nhom7\\RetailSalesInventoryAnalysis\\RetailSalesInventoryAnalysis\\RetailSalesInventoryDSV.dsv [Design]",
+              "RelativeToolTip": "RetailSalesInventoryAnalysis\\RetailSalesInventoryDSV.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T06:26:13.612Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

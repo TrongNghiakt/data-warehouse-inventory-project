@@ -1,0 +1,44 @@
+﻿// Luong nhap kho xuat kho va so luong ton kho trong theo ngay 
+SELECT
+  NON EMPTY {[Measures].[Units In], [Measures].[Units Out], [Measures].[Quantity On Hand]} ON COLUMNS,
+  NON EMPTY CrossJoin(
+    [Dim Date].[Full Date Alternate Key].children,
+    [Dim Product].[English Product Name].children
+  ) ON ROWS
+FROM [Product Inventory]
+
+// theo doi gia von hang hoa theo ngay 
+SELECT
+  NON EMPTY {[Measures].[Unit Cost]} ON COLUMNS,
+  NON EMPTY CrossJoin(
+    [Dim Date].[Full Date Alternate Key].children,
+    [Dim Product].[English Product Name].children
+  ) ON ROWS
+FROM [Product Inventory]
+
+// Top 10 sản phẩm tồn kho cao nhất
+SELECT
+  {[Measures].[Quantity On Hand]} ON COLUMNS,
+  TopCount(
+    [Dim Product].[English Product Name].Members,
+    10,
+    [Measures].[Quantity On Hand]
+  ) ON ROWS
+FROM [FactProductInventoryCube]
+
+// So luong hang nhap va xuat theo tung thang trong nam 2013
+
+SELECT
+  {
+    [Measures].[Units In],
+    [Measures].[Units Out]
+  } ON COLUMNS,
+  NON EMPTY
+  FILTER(
+    [Dim Date].[English Month Name].Members,
+    ([Dim Date].[Calendar Year].&[2013], [Dim Date].[English Month Name].CurrentMember)
+    <> (NULL)
+  ) ON ROWS
+FROM [FactProductInventoryCube]
+
+
